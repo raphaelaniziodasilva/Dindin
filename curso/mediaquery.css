@@ -1,0 +1,129 @@
+@media(max-width: 1000px) {
+   .investimento .artigo div {
+    width: 270px;
+    height: 270px;
+    margin-left: 10px;
+   }
+   .investimento .artigo .conteudo {
+    font-size: medium;
+   }
+   .investimento h1 {
+    font-size: 3.1em;
+   }
+   .investimento .artigo .conteudo h2 {
+    margin-bottom: 10px;
+   }
+   .investimento .artigo .button {
+    margin-top: -20px;
+    width: 183px;
+    font-size: x-large;
+   } 
+
+}
+
+@media(max-width: 850px) {
+    .investimento .artigo div {
+        width: 200px;
+        height: 230px;
+    }
+    .investimento .artigo div img{
+        width: 200px;
+        height: 230px;
+    }
+    .investimento .artigo .conteudo {
+        font-size: smaller;
+    }
+    .investimento h1 {
+        font-size: 2.7em;
+    }
+    .investimento p {
+        font-size: 1.1em;
+    }
+    .investimento .artigo .conteudo {
+        padding: 20px;
+    }
+    .investimento .artigo .conteudo h2 {
+        font-size: 1.7em;
+        margin-bottom: 5px;
+    }
+    .investimento .artigo .button {
+        margin-top: -40px;
+        width: 153px;
+        height: 30px;
+        font-size: large;
+    }
+   
+}
+
+@media(max-width: 720px) {
+    .investimento .artigo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .investimento .artigo div {
+        width: 350px;
+        height: 350px;
+        margin: auto;
+    }
+    .investimento .artigo div img{
+        width: 350px;
+        height: 350px;
+    }
+    .investimento h1 {
+        font-size: 3.2em;
+    }
+    .investimento p {
+        font-size: large;
+    }
+    .investimento .artigo .conteudo h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    .investimento .artigo .button {
+        margin-top: -20px;
+        width: 240px;
+        height: 31px;
+
+    }
+    
+}
+
+@media(max-width: 430px) {
+    .investimento h1 {
+        font-size: 2.2em;
+        margin-top: -30px ;
+    }
+    .investimento p {
+        font-size: medium;
+    }
+    .investimento .artigo {
+        margin-bottom: 55px;
+    }
+    .investimento .artigo div {
+        width: 300px;
+        height: 250px;
+        margin: auto;
+    }
+    .investimento .artigo div img{
+        width: 300px;
+        height: 250px;
+    }
+    .investimento .artigo .conteudo {
+        width: 320px;
+        padding: 10px;
+        font-size: large;
+    }
+    .investimento .artigo .conteudo h2 {
+        font-size: 1em;
+    }
+    .investimento .artigo .conteudo p {
+        font-size: small;
+       }
+    .investimento .artigo .button {
+        margin-top: 0px;
+        width: 140px;
+        height: 31px;
+    }
+    
+  
+}

@@ -1,0 +1,147 @@
+
+/* menu principal */
+.container {
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(60px auto);
+    
+}
+.ilustra {
+    grid-column: 1/5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 15px;
+   
+}
+.ilustra .conteudo h1 {
+    color: #009688;
+    font-size: 2.8em;
+    margin-top: 118px;
+    margin-bottom: 48px;
+    line-height: 1.1em;
+}
+.ilustra .conteudo p {
+    font-size: large;
+}
+.ilustra div {
+    width: 405px;
+    height: 405px;
+    margin-bottom: 77px;
+}
+.ilustra div img {
+    width: 100%;
+    height: 100%;
+}
+
+.propriedades {
+    background-color: #F6F6F6;
+    height: 100%;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.propriedades section div {
+    width: 518px;
+    margin-top: 91px;
+}
+.propriedades section div img {
+    width: 518px;
+    height: 259px;
+    background-color: #C4C4C4;
+}
+.propriedades section div h2 {
+    color: #EA3B76;
+    font-size: 1.9em;
+    margin-bottom: 32px;
+}
+.propriedades section div p {
+    font-size: large;
+}
+
+@media(max-width: 1060px) {
+    .propriedades section div {
+        width: 410px;
+    }
+    .propriedades section div img {
+        width: 410px;
+        height: 259px;
+        
+    }
+    .propriedades section div h2 {
+        font-size: 1.5em;
+    
+    }
+    .propriedades section div p {
+        font-size: large;
+    }
+}
+
+@media(max-width: 785px) {
+    .ilustra .conteudo h1 {
+        font-size: 1.8em;
+        margin-top: 40px;
+        margin-bottom: 27px;
+    }
+    .ilustra .conteudo p {
+        font-size: medium;
+    }
+    .ilustra div {
+        width: 305px;
+        height: 305px;
+    }
+}
+
+@media(max-width: 540px) {
+    .ilustra .conteudo h1 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+        margin-top: 12px;
+    }
+    .ilustra .conteudo p {
+        font-size: medium;
+    }
+    .ilustra div {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media(max-width: 430px) {
+  
+    .ilustra .conteudo h1 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .ilustra .conteudo p {
+        font-size: x-small;
+    }
+    .ilustra div {
+        width: 190px;
+        height: 190px;
+    }
+    .propriedades section div {
+        width: 310px;
+    }
+    .propriedades section div img {
+        width: 310px;
+        height: 189px;
+        
+    }
+    .propriedades section div h2 {
+        font-size: 1.2em;
+    
+    }
+    .propriedades section div p {
+        font-size: large;
+    }
+}
+
+

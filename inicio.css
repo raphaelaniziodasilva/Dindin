@@ -1,0 +1,342 @@
+
+/* configuração global */
+* {
+    margin: 0px;    
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* variavel */
+:root {
+    ---header: #2E948A; 
+}
+
+/* cabeçalho */
+header {
+    background-color: var(---header);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.50%;
+    margin-bottom: 30px;
+}
+header div {
+    width: 265px;
+    margin: 0px 50px;
+}
+header div img {
+    width: 100%;
+}
+
+/* menu de navegação*/
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-right: 90px;
+    
+}
+nav a {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+    padding: 0px 15px;
+}
+
+/* main principal */
+.container {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(60px auto);
+}
+.banner {
+    grid-column: 1/5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.banner section h1 {    
+    color: #FF4081;
+    font-size: 3.8em;
+    line-height: 1.1em;
+    margin-bottom: 30px;
+}
+p {    
+    font-size: x-large;
+    margin-bottom: 32px;
+}
+.banner section .SaberMais {    
+    border: 2px solid #FF4081;
+    width: 225px;
+    height: 33px;
+    color: #dc2965;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 1.6rem;
+}
+.banner div {
+    width: 401px;
+    height: 411px;
+}
+.banner div img {
+    width: 100%;
+    min-width: 50%;
+}
+
+.curso {
+    grid-column: 1/5;
+    background-color: #F6F6F6;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 26px 0px;
+} 
+.curso section div {
+    width: 310px;
+    height: 290px;
+    margin: auto;
+}
+.curso section img {
+    width: 100%;
+    height: 100%;
+}
+.curso section h3 {
+   color: #FF4081;
+   font-weight: bolder;
+   font-size: 1.7em;
+}
+.curso section p {
+    width: 304px;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 22px;
+}
+.curso section .buton {
+    border: 1px solid black;
+    background-color: #FF4081;
+    width: 223px;
+    font-size: large;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    line-height: 2.5rem;
+}
+
+.depoimentos {
+    background-color: #FFFFFF;
+    grid-column: 1/5;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px 0px;
+    align-items: flex-end;
+}
+.depoimentos h2 {
+    color: #009688;
+    font-size: 2.3em;
+    margin-bottom: 58px;
+}
+
+.depoimentos section div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.depoimentos section div img {
+    width: 20%;
+    height: 110px;
+    padding-right: 20px;
+}
+.depoimentos section div p {
+    width: 330px;
+    font-size: medium;  
+}
+.depoimentos section .name {
+    font-size: large;  
+    margin-bottom: 54px;
+}
+.container .MaisVoce {
+    grid-column: 1/5;  
+    background-color:  #F6F6F6;  
+    color: #009688;
+    font-size: 2.3em;
+    padding: 25px;
+    text-indent: 4%;
+}
+
+.blog {
+    background-color: #F6F6F6;
+    grid-column: 1/5;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 16px 0px; 
+}
+.blog section div {
+    width: 319px;
+    margin-bottom: 70px;
+}
+.blog section div img {
+    width: 319px;
+    height: 195px;
+    border: 1px solid black;
+    background-color: #C4C4C4;
+}
+.blog section div h3 {
+    text-align: center;
+    color: #009688;
+    font-size: x-large; 
+}
+.blog section div p {
+    width: 304px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.posts {
+    border: 2px solid #FF4081;
+    width: 225px;
+    height: 33px;
+    color: #dc2965;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.6rem;
+    margin: auto;
+}
+
+/* footer: rodapé*/
+footer {
+    background-color: #009688;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+footer .imgRodape {
+    width: 250px;
+    height: 100px;
+    margin-top: 36px ;
+    
+}
+footer .imgRodape img {
+    width: 100%;
+    height: 100%;
+}
+footer .listaRodape {
+    color: white;
+    font-size: large;
+}
+footer .link {
+    margin-top: 48px;
+}
+footer .link p {
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: medium;
+    text-align: center;
+    padding: 5px 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* media query*/
+@media(max-width: 480px) {
+    nav a {
+        padding: 13px;
+        text-align: center;   
+    }
+    .banner{    
+        margin-bottom: 250px;
+    }
+    .banner section h1 {    
+        font-size: 2.4em;
+        margin-top: -57px;
+    }
+    .banner section .SaberMais {    
+        margin-bottom: -54px;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .curso {
+        height: 100%; 
+    } 
+    .depoimentos section div {
+        margin-left: 10px; 
+    }
+    .depoimentos section div p {
+        width: 200px;
+        margin-left: 10px;  
+    }
+    .depoimentos section .name {
+        margin-left: 10px;    
+    }
+    .depoimentos section div img {
+        width: 25%;
+    }
+    .depoimentos h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 980px) {
+    .blog section div {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container .MaisVoce {
+        text-indent: 0%;
+        font-size: 1.4em;   
+    } 
+    .blog section div {
+        width: 290px;
+    }
+    .blog section div img {
+        width: 290px;
+    }
+    .blog section div p {
+        width: 290px;
+        font-size: large;
+        text-align: center;
+        margin-bottom: 22px;
+    }  
+}
+
+@media(max-width: 650px) {
+    footer .imgRodape {
+        width: 120px;
+        height: 59px;
+        padding: 10px;
+    }
+    footer .link p {
+        font-size: medium;
+        padding: 5px 5px;
+    }    
+    footer .listaRodape {
+        color: white;
+        font-size: medium;
+        margin-top: 31px;
+    }
+}
+
+
+

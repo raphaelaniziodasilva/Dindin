@@ -1,0 +1,83 @@
+
+/* principal */
+.container {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(60px auto);
+}
+.investimento {
+    grid-column: 1/4;
+    margin-bottom: 93px;
+}
+hr {
+    background-color: #C4C4C4;
+    width: 90%;
+    margin: auto;
+}
+.investimento .titulo {
+    margin-left: 12%;
+    margin-top: 46px;
+}
+.investimento h1 {
+    color: #FF4081;
+    font-size: 3.3em;
+}
+.investimento p {
+    font-size: larger;
+    margin-bottom: 51px;
+}
+.investimento .artigo {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 110px;
+}
+.investimento .artigo div {
+    width: 380px;
+    height: 380px;
+}
+.investimento .artigo img {
+    width: 100%;
+    height: 100%;
+}
+.investimento .artigo .conteudo {
+    width: 820px;
+    padding: 10px;
+    font-size: large;
+}
+.investimento .artigo .conteudo h2 {
+    color: #FF4081;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+}
+.investimento .artigo .button {
+    border: 1px solid black;
+    width: 233px;
+    height: 41px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #419488;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+} 
+
+
+
+
+
+
+
+
+
+.poupando {
+    background-color: red;
+    grid-column: 1/4;
+}
+
+.Independência {
+    background-color: green;
+    grid-column: 1/4;
+}

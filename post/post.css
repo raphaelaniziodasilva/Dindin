@@ -1,0 +1,93 @@
+/* menu principal */
+.container {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(60px auto);
+}
+section {
+    grid-column: 1/5;
+    margin: 20px;
+}
+section h1 {
+    color: #FF4081;
+    font-size: 3.4em;
+    text-align: center;
+    margin-top: 39px;
+}
+section .titulo {
+    text-align: center;
+    margin-bottom: 67px;
+}
+section .imagem {
+    max-width: 1030px;
+    height: 465px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: #C4C4C4;
+    margin-bottom: 67px;
+}
+section article  {
+    max-width: 1230px;
+    margin: auto;
+    margin-bottom: 38px;
+}
+section h2 {
+    color: #419488;
+    font-size: xx-large; 
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.h1post {
+    background-color: #F6F6F6;
+    grid-column: 1/5;
+    color: #FF4081;
+    font-size: 3.4em;
+    text-align: center;
+    margin-bottom: -1.4rem;
+    padding: 4rem;
+}
+
+.post {
+    grid-column: 1/5;
+    background-color: #F6F6F6;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0px;
+} 
+.post section div {
+    width: 310px;
+    height: 290px;
+    margin: auto;
+}
+.post section img {
+    width: 100%;
+    height: 100%;
+}
+.post section h3 {
+   color: #FF4081;
+   font-weight: bolder;
+   font-size: 1.7em;
+}
+.post section p {
+    width: 304px;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 22px;
+}
+.post section .buton {
+    border: 1px solid black;
+    background-color: #FF4081;
+    width: 223px;
+    font-size: large;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    line-height: 2.5rem;
+}
